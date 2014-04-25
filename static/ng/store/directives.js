@@ -4,6 +4,6 @@ angular.module("store.directives", ["common.directives"])
 		scope: {
 			article: "=faq"
 		},
-		template: '/static/ng/store/templates/qa-item.html'
+		templateUrl: '/static/ng/store/templates/qa-item.html'
 	};
 });
